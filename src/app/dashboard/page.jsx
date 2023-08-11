@@ -1,17 +1,21 @@
 "use client"
 import React from 'react'
 import Navigation from '@/components/Navigation/Navigation'
+import PasswordButton from '@/components/Passwords/PasswordButton'
+import NewPasswordButton from '@/components/Passwords/NewPasswordButton'
 
 function page() {
     return (
         <Navigation>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"/>
             <div className='grid grid-cols-5 gap-4 grid-flow-row'>
-                <div className='h-40 bg-white p-4 rounded-2xl shadow-cs1 hover:shadow-cs2 hover:cursor-pointer'>Element</div>
-                <div className='h-40 bg-white p-4 rounded-2xl shadow-cs1 hover:shadow-cs2 hover:cursor-pointer'>Element</div>
-                <div className='h-40 bg-white p-4 rounded-2xl shadow-cs1 hover:shadow-cs2 hover:cursor-pointer'>Element</div>
-                <div className='h-40 bg-white p-4 rounded-2xl shadow-cs1 hover:shadow-cs2 hover:cursor-pointer'>Element</div>
-                <div className='h-40 bg-white p-4 rounded-2xl shadow-cs1 hover:shadow-cs2 hover:cursor-pointer'>Element</div>
-                <div className='h-40 bg-white p-4 rounded-2xl shadow-cs1 hover:shadow-cs2 hover:cursor-pointer'>Element</div>
+                <NewPasswordButton />
+                <PasswordButton />
+                <PasswordButton />
+                <PasswordButton />
+                <PasswordButton />
+                <PasswordButton />
+                <PasswordButton />
             </div>
         </Navigation>
     )

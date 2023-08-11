@@ -1,4 +1,6 @@
+"use client"
 import './globals.css'
+import ContextWrapper from '@/components/Context/StateContext'
 
 export const metadata = {
   title: 'Create Next App',
@@ -6,9 +8,11 @@ export const metadata = {
 }
 
 export default function RootLayout({ children }) {
-  return (
-    <html lang="en">
-      <body>{children}</body>
-    </html>
-  )
+    return (
+        <html lang="en">
+            <ContextWrapper>
+                <body>{children}</body>
+            </ContextWrapper>
+        </html>
+    )
 }
