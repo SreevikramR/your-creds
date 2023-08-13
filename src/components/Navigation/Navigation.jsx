@@ -19,7 +19,7 @@ const Navigation = ({ children }) => {
             <div className='flex flex-col w-full text-black'>
                 <div style={styles.topNav}>
                     <FontAwesomeIcon icon={faSearch} className='text-2xl pt-1 pr-2 text-black' />
-                    <input outline className='w-1/4 p-2 pl-4 rounded-xl border-2 border-black active:border-blue-600' type="text" placeholder='Search' onChange={(e) => setSearch(e.target.value)} />
+                    <input className='w-1/4 p-2 pl-4 rounded-xl border-2 border-black active:border-blue-600' type="text" placeholder='Search' onChange={(e) => setSearch(e.target.value)} />
                 </div>
                 <div className='p-4 h-full'>
                     {children}

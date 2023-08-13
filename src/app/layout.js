@@ -1,6 +1,9 @@
 "use client"
 import './globals.css'
 import ContextWrapper from '@/components/Context/StateContext'
+import '@fortawesome/fontawesome-svg-core/styles.css';
+import { config } from '@fortawesome/fontawesome-svg-core';
+config.autoAddCss = false; 
 
 export const metadata = {
   title: 'Create Next App',

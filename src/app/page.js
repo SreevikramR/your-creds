@@ -67,7 +67,7 @@ export default function Home() {
                 <div className="w-72">
                     <div className="relative h-10 w-full min-w-[200px]">
                         <input
-                            className="peer h-full w-full rounded-[7px] border border-black border-t-transparent bg-transparent px-3 py-2.5 font-sans text-sm font-normal text-black outline outline-0 transition-all placeholder-shown:border placeholder-shown:border-black placeholder-shown:border-t-black focus:border-2 focus:border-black focus:border-t-transparent focus:outline-0 disabled:border-0 disabled:bg-black"
+                            className="peer h-full w-full rounded-[7px] border border-black border-t-black bg-transparent px-3 py-2.5 font-sans text-sm font-normal text-black outline outline-0 transition-all placeholder-shown:border placeholder-shown:border-black placeholder-shown:border-t-black focus:border-2 focus:border-black focus:border-t-transparent focus:outline-0 disabled:border-0 disabled:bg-black"
                             placeholder=" "
                             value={email}
                             onChange={(e) => setEmail(e.target.value)}
@@ -80,7 +80,7 @@ export default function Home() {
                 <div className="w-72 mt-4">
                     <div className="relative h-10 w-full min-w-[200px]">
                         <input
-                            className="peer h-full w-full rounded-[7px] border border-black border-t-transparent bg-transparent px-3 py-2.5 font-sans text-sm font-normal text-black outline outline-0 transition-all placeholder-shown:border placeholder-shown:border-black placeholder-shown:border-t-black focus:border-2 focus:border-black focus:border-t-transparent focus:outline-0 disabled:border-0 disabled:bg-black"
+                            className="peer h-full w-full rounded-[7px] border border-black border-t-black bg-transparent px-3 py-2.5 font-sans text-sm font-normal text-black outline outline-0 transition-all placeholder-shown:border placeholder-shown:border-black placeholder-shown:border-t-black focus:border-2 focus:border-black focus:border-t-transparent focus:outline-0 disabled:border-0 disabled:bg-black"
                             placeholder=" "
                             value={password}
                             onChange={(e) => setPassword(e.target.value)}
